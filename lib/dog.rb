@@ -7,7 +7,7 @@ def initialize(name)
 end
 
 def self.all
- @@all
+ @@all.each {|x| x }
 end
 
 def self.name
