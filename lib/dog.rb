@@ -8,8 +8,7 @@ def initialize(name)
 end
 
 def self.all
-# @@all.map {|x| puts x }
-  @@all.flatten
+ @@all.each {|x| puts x.name}
 end
 
 def self.clear_all
